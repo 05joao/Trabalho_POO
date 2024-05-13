@@ -1,0 +1,8 @@
+package br.unipar.pacman;
+
+public class PacMan extends Character{
+
+        private int lives;
+
+    }
+
