@@ -1,0 +1,13 @@
+package br.unipar.pacman;
+
+public class Map {
+
+
+        private int[][] layout; // Representação do labirinto em forma de matriz
+
+        public Map() {
+            // Inicialização do labirinto
+        }
+
+        // Métodos para desenhar o labirinto, verificar colisões, etc.
+    }
