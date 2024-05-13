@@ -1,0 +1,6 @@
+package br.unipar.pacman;
+
+public class Item {
+
+    protected int x, y;
+}
