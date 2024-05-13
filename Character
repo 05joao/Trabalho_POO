@@ -1,0 +1,10 @@
+package br.unipar.pacman;
+
+public class Character {
+
+
+        protected int x, y;
+        protected Direction direction;
+
+
+    }
