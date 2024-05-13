@@ -1,0 +1,24 @@
+package br.unipar.pacman;
+
+public class PacManGame {
+
+
+        private Map map;
+        private PacMan pacMan;
+        private Ghost[] ghosts;
+        private Item[] items;
+
+        public PacManGame() {
+            this.map = new Map();
+            this.pacMan = new PacMan();
+            this.ghosts = new Ghost[4];
+            for (int i = 0; i < ghosts.length; i++) {
+                ghosts[i] = new Ghost();
+            }
+            this.items = new Item[5];
+            for (int i = 0; i < items.length; i++) {
+                items[i] = new Item();
+            }
+        }
+
+}
